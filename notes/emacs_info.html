@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Emacs Info Mode</title>
+	</head>
+	
+	<body>
+		<h1>Emacs Info Mode</h1>
+		
+		<h2>缘起</h2>
+		<p> 我想查找分割窗口的指令，于是在Help菜单下找到了Emacs Manual，希望从中找到与Window相关的文档。
+			于是，如同武侠小说的主人公掉下悬崖，我进入了Emacs Info Mode。</p>
+			
+		<p> 当我刚进入Emacs Info Mode时，好像不会游泳的人进入了大海，无从下手。
+		    经搜索，可以用c-h m来获得当前模式的说明。
+			于是，我的第一根救命稻草出现了：		
+		</p>
+		
+		<blockquote>
+		<pre><code>h	Invoke the Info tutorial.
+q	Quit Info: reselect previously selected buffer.</code></pre>
+		</blockquote>
+		
+		<p>用h调出Info的帮助手册，接下来只需参照手册进行就可以掌握Info的全部。</p>
+		
+		<h2>Info Mode基本命令</h2>
+		
+		<p>当然，跟着手册学习要花时间。这里给出Info Mode的基本指令，以便快速掌握：</p>
+		
+		<table>
+			<tr> <th>指令</th> 							<th>功能</th> 							</tr>
+			<tr> <td><code>n,p</code></td>				<td>下一节，上一节（同级别）</td> 		</tr>
+			<tr> <td><code>],[</code></td>				<td>下一节，上一节（不分级别）</td>	</tr>
+			<tr> <td><code>^</code></td>				<td>父节点</td>							</tr>
+			<tr> <td><code>Space,Backspace</code></td>	<td>翻页</td> 							</tr>
+			<tr> <td><code>?</code></td>				<td>调出常用命令列表</td>				</tr>
+		</table>
+	</body>
+</html>
